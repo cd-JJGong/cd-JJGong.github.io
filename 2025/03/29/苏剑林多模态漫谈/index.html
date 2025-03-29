@@ -6,13 +6,20 @@
   
   <title>learn</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:type" content="website">
+  <meta name="description" content="“闭门造车”之多模态思路浅谈（二）：自回归 Patchify 对图像进行“前处理”，比如简单将图像Pixels分Patch、通过VAE来提取特征或者通过VQ来离散化等，其共同特点是将图像从$w×h×3$的数组变成$s×t×d$（其中$s&lt;w,t&lt;h$）的数组  自回归（AR） DDPM,实质是一个自回归模型，它将单个图像解构为序列$x_T,x_{T-1},…,x_1,x_0$，然后去建">
+<meta property="og:type" content="article">
 <meta property="og:title" content="learn">
-<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:url" content="http://example.com/2025/03/29/%E8%8B%8F%E5%89%91%E6%9E%97%E5%A4%9A%E6%A8%A1%E6%80%81%E6%BC%AB%E8%B0%88/index.html">
 <meta property="og:site_name" content="learn">
+<meta property="og:description" content="“闭门造车”之多模态思路浅谈（二）：自回归 Patchify 对图像进行“前处理”，比如简单将图像Pixels分Patch、通过VAE来提取特征或者通过VQ来离散化等，其共同特点是将图像从$w×h×3$的数组变成$s×t×d$（其中$s&lt;w,t&lt;h$）的数组  自回归（AR） DDPM,实质是一个自回归模型，它将单个图像解构为序列$x_T,x_{T-1},…,x_1,x_0$，然后去建">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/imgs/patch_inference.png">
+<meta property="og:image" content="http://example.com/imgs/patch_inference_new.png">
+<meta property="article:published_time" content="2025-03-29T10:03:42.449Z">
+<meta property="article:modified_time" content="2025-03-29T10:03:42.451Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/imgs/patch_inference.png">
   
     <link rel="alternate" href="/atom.xml" title="learn" type="application/atom+xml">
   
@@ -73,9 +80,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-苏剑林多模态漫谈" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+        <section id="main"><article id="post-苏剑林多模态漫谈" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2025/03/29/%E8%8B%8F%E5%89%91%E6%9E%97%E5%A4%9A%E6%A8%A1%E6%80%81%E6%BC%AB%E8%B0%88/" class="article-date">
   <time class="dt-published" datetime="2025-03-29T10:03:42.449Z" itemprop="datePublished">2025-03-29</time>
@@ -122,11 +127,9 @@
     </footer>
   </div>
   
-</article>
-
-
-
+    
   
+</article>
 
 
 </section>
